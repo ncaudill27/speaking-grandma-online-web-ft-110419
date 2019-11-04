@@ -16,7 +16,7 @@ require 'pry'
 def speak_to_grandma(hey_gma)
   if hey_gma == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
-  elsif hey_gma.upcase
+  elsif !!hey_gma.upcase
     "NO, NOT SINCE 1938!"
   else
     "HUH?! SPEAK UP, SONNY!"
