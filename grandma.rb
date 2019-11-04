@@ -18,7 +18,7 @@ def speak_to_grandma(hey_gma)
     "I LOVE YOU TOO PUMPKIN!"
   elsif hey_gma.upcase
     "NO, NOT SINCE 1938!"
-  else
+  elsif !hey_gma.upcase
     "HUH?! SPEAK UP, SONNY!"
   end
 end
